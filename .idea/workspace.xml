@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16837d83-7612-4d8b-b2f8-fe1f43de067b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/AWS/aws_provider.tf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AWS/main.tf" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AWS/VPC/.terraform/plugins/windows_amd64/lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AWS/VPC/terraform.tfstate" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AWS/VPC/terraform.tfstate.backup" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AWS/VPC/vars.tf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AWS/instance.tf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AWS/provider.tf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AWS/terraform.tfstate" afterPath="$PROJECT_DIR$/AWS/terraform.tfstate" />
-      <change beforePath="$PROJECT_DIR$/AWS/terraform.tfstate.backup" afterPath="$PROJECT_DIR$/AWS/terraform.tfstate.backup" />
-      <change beforePath="$PROJECT_DIR$/AWS/vars.tf" afterPath="$PROJECT_DIR$/AWS/vars.tf" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -222,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518989740410</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rejigged directory">
+      <created>1518989864156</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1518989864156</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -264,7 +264,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
+    <MESSAGE value="rejigged directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="rejigged directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
