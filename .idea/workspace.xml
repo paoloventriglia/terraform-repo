@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16837d83-7612-4d8b-b2f8-fe1f43de067b" name="Default" comment="updated .gitignore">
+    <list default="true" id="16837d83-7612-4d8b-b2f8-fe1f43de067b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AWS/VPC/provider.tf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AWS/VPC/terraform.tfstate" afterPath="$PROJECT_DIR$/AWS/VPC/terraform.tfstate" />
-      <change beforePath="$PROJECT_DIR$/AWS/VPC/terraform.tfstate.backup" afterPath="$PROJECT_DIR$/AWS/VPC/terraform.tfstate.backup" />
-      <change beforePath="$PROJECT_DIR$/AWS/VPC/vpc.tf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vCloud/.terraform/plugins/windows_amd64/lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vCloud/instance.tf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vCloud/provider.tf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vCloud/terraform.tfstate" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vCloud/terraform.tfstate.backup" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vCloud/vars.tf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AWS/VPC/.terraform/plugins/windows_amd64/lock.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AWS/VPC/terraform.tfstate" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AWS/VPC/terraform.tfstate.backup" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AWS/VPC/vars.tf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AWS/instance.tf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AWS/provider.tf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AWS/terraform.tfstate" afterPath="$PROJECT_DIR$/AWS/terraform.tfstate" />
+      <change beforePath="$PROJECT_DIR$/AWS/terraform.tfstate.backup" afterPath="$PROJECT_DIR$/AWS/terraform.tfstate.backup" />
+      <change beforePath="$PROJECT_DIR$/AWS/vars.tf" afterPath="$PROJECT_DIR$/AWS/vars.tf" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,36 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.tf" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AWS/VPC/main.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="114" column="38" lean-forward="false" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
-              <folding>
-                <marker date="1518988819849" expanded="true" signature="220:238" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="383:401" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="550:568" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="681:699" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="759:788" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="949:972" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="994:1019" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="1222:1240" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="1438:1469" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="1686:1704" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="1794:1824" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="2010:2033" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="2064:2103" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="2287:2311" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="2342:2376" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="2626:2648" ph="${...}" />
-                <marker date="1518988819849" expanded="true" signature="2669:2690" ph="${...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -154,12 +124,6 @@
               <item name=".terraform" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="terraform-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="terraform-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="AWS" type="462c0819:PsiDirectoryNode" />
-              <item name="VPC" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -251,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518699659039</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated .gitignore">
+      <created>1518989740410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518989740410</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -494,11 +465,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518644699225" expanded="true" signature="33:54" ph="${...}" />
-            <marker date="1518644699225" expanded="true" signature="72:93" ph="${...}" />
-            <marker date="1518644699225" expanded="true" signature="111:128" ph="${...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -514,25 +481,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="114" column="38" lean-forward="false" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
-          <folding>
-            <marker date="1518988819849" expanded="true" signature="220:238" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="383:401" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="550:568" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="681:699" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="759:788" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="949:972" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="994:1019" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="1222:1240" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="1438:1469" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="1686:1704" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="1794:1824" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="2010:2033" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="2064:2103" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="2287:2311" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="2342:2376" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="2626:2648" ph="${...}" />
-            <marker date="1518988819849" expanded="true" signature="2669:2690" ph="${...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
