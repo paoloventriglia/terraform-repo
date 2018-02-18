@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16837d83-7612-4d8b-b2f8-fe1f43de067b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Bash/redis_install.sh" afterPath="$PROJECT_DIR$/../Bash/redis_install.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Powershell/vmware.module.psm1" afterPath="$PROJECT_DIR$/../Powershell/vmware.module.psm1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Powershell/vsphere.vm.provision.ps1" afterPath="$PROJECT_DIR$/../Powershell/vsphere.vm.provision.ps1" />
+    <list default="true" id="16837d83-7612-4d8b-b2f8-fe1f43de067b" name="Default" comment="updated .gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/AWS/VPC/provider.tf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AWS/VPC/terraform.tfstate" afterPath="$PROJECT_DIR$/AWS/VPC/terraform.tfstate" />
+      <change beforePath="$PROJECT_DIR$/AWS/VPC/terraform.tfstate.backup" afterPath="$PROJECT_DIR$/AWS/VPC/terraform.tfstate.backup" />
+      <change beforePath="$PROJECT_DIR$/AWS/VPC/vpc.tf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vCloud/.terraform/plugins/windows_amd64/lock.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vCloud/instance.tf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vCloud/provider.tf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vCloud/terraform.tfstate" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vCloud/terraform.tfstate.backup" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vCloud/vars.tf" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,67 +23,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="provider.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AWS/VPC/provider.tf">
+      <file leaf-file-name="main.tf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AWS/VPC/main.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="320">
+              <caret line="114" column="38" lean-forward="false" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
               <folding>
-                <marker date="1516094177206" expanded="true" signature="35:56" ph="${...}" />
-                <marker date="1516094177206" expanded="true" signature="76:97" ph="${...}" />
-                <marker date="1516094177206" expanded="true" signature="113:130" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="220:238" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="383:401" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="550:568" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="681:699" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="759:788" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="949:972" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="994:1019" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="1222:1240" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="1438:1469" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="1686:1704" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="1794:1824" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="2010:2033" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="2064:2103" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="2287:2311" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="2342:2376" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="2626:2648" ph="${...}" />
+                <marker date="1518988819849" expanded="true" signature="2669:2690" ph="${...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="terraform.tfvars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AWS/VPC/terraform.tfvars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vars.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AWS/VPC/vars.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vpc.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AWS/VPC/vpc.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-              <folding>
-                <marker date="1518695249485" expanded="true" signature="147:165" ph="${...}" />
-                <marker date="1518695249485" expanded="true" signature="283:301" ph="${...}" />
-                <marker date="1518695249485" expanded="true" signature="421:439" ph="${...}" />
-                <marker date="1518695249485" expanded="true" signature="521:539" ph="${...}" />
-                <marker date="1518695249485" expanded="true" signature="599:628" ph="${...}" />
-                <marker date="1518695249485" expanded="true" signature="734:757" ph="${...}" />
-                <marker date="1518695249485" expanded="true" signature="779:804" ph="${...}" />
-                <marker date="1518695249485" expanded="true" signature="860:872" ph="${...}" />
-                <marker date="1518695249485" expanded="true" signature="918:941" ph="${...}" />
-                <marker date="1518695249485" expanded="true" signature="1056:1080" ph="${...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vars.tf" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vCloud/vars.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -95,17 +66,18 @@
         <option value="$PROJECT_DIR$/AWS/IAM/vars.tf" />
         <option value="$PROJECT_DIR$/AWS/VPC/vars.tf" />
         <option value="$PROJECT_DIR$/AWS/IAM/instance.tf" />
-        <option value="$PROJECT_DIR$/../Bash/redis_install.sh" />
-        <option value="$PROJECT_DIR$/AWS/VPC/vpc.tf" />
+        <option value="$USER_HOME$/Bash/redis_install.sh" />
         <option value="$PROJECT_DIR$/vCloud/vars.tf" />
+        <option value="$PROJECT_DIR$/AWS/VPC/vpc.tf" />
+        <option value="$PROJECT_DIR$/AWS/VPC/main.tf" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="634" />
-    <option name="y" value="-10" />
+    <option name="x" value="683" />
+    <option name="y" value="27" />
     <option name="width" value="683" />
-    <option name="height" value="728" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -141,6 +113,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="terraform-repo" type="cbb8eebc:String" user="terraform-repo" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="terraform-repo" type="cbb8eebc:String" user="terraform-repo" />
+              <item name="AWS" type="cbb8eebc:String" user="AWS" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,24 +145,41 @@
               <item name="terraform-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="terraform-repo" type="462c0819:PsiDirectoryNode" />
               <item name="AWS" type="462c0819:PsiDirectoryNode" />
-              <item name="VPC" type="462c0819:PsiDirectoryNode" />
+              <item name=".terraform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="terraform-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="terraform-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="vCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+              <item name=".terraform" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="terraform-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="terraform-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+              <item name="VPC" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="Scratches">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Powershell" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Powershell" />
     <property name="TF_FMT" value="false" />
   </component>
   <component name="RecentsManager">
@@ -199,9 +204,9 @@
     <configuration name="redis_install.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Bash" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Bash" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Bash/redis_install.sh" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Bash/redis_install.sh" />
       <option name="PARAMETERS" value="" />
       <module name="Bash" />
       <envs />
@@ -250,27 +255,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="683" y="27" width="1366" height="741" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2591508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37795275" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07234727" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33441034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="158" y="298" width="836" height="358" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39418417" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37795275" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37795275" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33441034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="158" y="298" width="836" height="358" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39418417" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2591508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -285,37 +300,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Bash/server_reconfig.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Bash/redis_install.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Powershell/vmware.module.psm1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Powershell/vmware.module.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Powershell/vmware.module.ps1" />
     <entry file="file://$PROJECT_DIR$/AWS/provider.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -330,20 +315,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/IAM/vars.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/terraform.tfvars" />
+    <entry file="file://$PROJECT_DIR$/AWS/IAM/vars.tf" />
     <entry file="file://$PROJECT_DIR$/AWS/VPC/vars.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -365,28 +338,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/IAM/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/IAM/provider.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Bash/server_reconfig.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/IAM/terraform.tfvars" />
+    <entry file="file://$PROJECT_DIR$/AWS/IAM/provider.tf" />
+    <entry file="file://$USER_HOME$/Bash/server_reconfig.sh" />
     <entry file="file://$PROJECT_DIR$/AWS/provider.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -401,20 +355,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/IAM/vars.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/terraform.tfvars" />
+    <entry file="file://$PROJECT_DIR$/AWS/IAM/vars.tf" />
     <entry file="file://$PROJECT_DIR$/AWS/VPC/vars.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -436,20 +378,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/IAM/provider.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/IAM/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/IAM/provider.tf" />
+    <entry file="file://$PROJECT_DIR$/AWS/IAM/terraform.tfvars" />
     <entry file="file://$PROJECT_DIR$/AWS/instance.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -464,13 +394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vCloud/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vCloud/terraform.tfvars" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
@@ -516,72 +440,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AWS/Networking/vars.tf" />
     <entry file="file://$PROJECT_DIR$/AWS/Networking/provider.tf" />
-    <entry file="file://$PROJECT_DIR$/AWS/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/terraform.tfvars" />
     <entry file="file://$PROJECT_DIR$/AWS/Networking/terraform.tfvars" />
-    <entry file="file://$PROJECT_DIR$/AWS/IAM/provider.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/IAM/vars.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/IAM/provider.tf" />
+    <entry file="file://$PROJECT_DIR$/AWS/IAM/vars.tf" />
     <entry file="file://$PROJECT_DIR$/AWS/IAM/instance.tf" />
-    <entry file="file://$PROJECT_DIR$/AWS/IAM/terraform.tfvars">
+    <entry file="file://$PROJECT_DIR$/AWS/IAM/terraform.tfvars" />
+    <entry file="file://$USER_HOME$/Bash/server_reconfig.sh" />
+    <entry file="file://$USER_HOME$/Powershell/vmware.module.psm1" />
+    <entry file="file://$USER_HOME$/Bash/redis_install.sh" />
+    <entry file="file://$USER_HOME$/Powershell/vsphere.vm.provision.ps1" />
+    <entry file="file://$USER_HOME$/Powershell/vmware.module.ps1" />
+    <entry file="file://$PROJECT_DIR$/vCloud/vars.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Bash/server_reconfig.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Powershell/vmware.module.psm1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Bash/redis_install.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Powershell/vsphere.vm.provision.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Powershell/vmware.module.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="170">
+          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -589,54 +462,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516094177206" expanded="true" signature="35:56" ph="${...}" />
-            <marker date="1516094177206" expanded="true" signature="76:97" ph="${...}" />
-            <marker date="1516094177206" expanded="true" signature="113:130" ph="${...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/VPC/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/VPC/vars.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AWS/VPC/vpc.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        <state relative-caret-position="1818">
+          <caret line="101" column="22" lean-forward="false" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/VPC/vars.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/VPC/terraform.tfvars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="58" lean-forward="false" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/VPC/aws_provider.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518695249485" expanded="true" signature="147:165" ph="${...}" />
-            <marker date="1518695249485" expanded="true" signature="283:301" ph="${...}" />
-            <marker date="1518695249485" expanded="true" signature="421:439" ph="${...}" />
-            <marker date="1518695249485" expanded="true" signature="521:539" ph="${...}" />
-            <marker date="1518695249485" expanded="true" signature="599:628" ph="${...}" />
-            <marker date="1518695249485" expanded="true" signature="734:757" ph="${...}" />
-            <marker date="1518695249485" expanded="true" signature="779:804" ph="${...}" />
-            <marker date="1518695249485" expanded="true" signature="860:872" ph="${...}" />
-            <marker date="1518695249485" expanded="true" signature="918:941" ph="${...}" />
-            <marker date="1518695249485" expanded="true" signature="1056:1080" ph="${...}" />
+            <marker date="1518644699225" expanded="true" signature="33:54" ph="${...}" />
+            <marker date="1518644699225" expanded="true" signature="72:93" ph="${...}" />
+            <marker date="1518644699225" expanded="true" signature="111:128" ph="${...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vCloud/vars.tf">
+    <entry file="file://$PROJECT_DIR$/AWS/VPC/terraform.tfstate">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        <state relative-caret-position="216">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/VPC/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="114" column="38" lean-forward="false" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
+          <folding>
+            <marker date="1518988819849" expanded="true" signature="220:238" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="383:401" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="550:568" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="681:699" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="759:788" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="949:972" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="994:1019" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="1222:1240" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="1438:1469" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="1686:1704" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="1794:1824" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="2010:2033" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="2064:2103" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="2287:2311" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="2342:2376" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="2626:2648" ph="${...}" />
+            <marker date="1518988819849" expanded="true" signature="2669:2690" ph="${...}" />
+          </folding>
         </state>
       </provider>
     </entry>
