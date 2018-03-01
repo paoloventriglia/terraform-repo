@@ -1,123 +1,88 @@
 # Provision VPC with cidr block of 10.0.0.0/16
-resource "aws_vpc" "main" {
+resource "aws_vpc" "myvpc" {
   cidr_block       = "10.0.0.0/16"
 
   tags {
-    Name = "main"
+    Name = "myvpc"
   }
 }
 
 # Provision public subnet
-resource "aws_subnet" "public" {
-  vpc_id     = "${aws_vpc.main.id}"
+resource "aws_subnet" "mysubnet" {
+  vpc_id     = "${aws_vpc.myvpc.id}"
   cidr_block = "10.0.1.0/24"
+  map_public_ip_on_launch = true
 
   tags {
-    Name = "public"
-  }
-}
-
-# Provision private subnet
-resource "aws_subnet" "private" {
-  vpc_id     = "${aws_vpc.main.id}"
-  cidr_block = "10.0.2.0/24"
-
-  tags {
-    Name = "private"
+    Name = "mysubnet"
   }
 }
 
 # Provision Internet Gateway
-resource "aws_internet_gateway" "gw" {
-  vpc_id = "${aws_vpc.main.id}"
+resource "aws_internet_gateway" "myig" {
+  vpc_id = "${aws_vpc.myvpc.id}"
 
   tags {
-    Name = "gw"
+    Name = "myig"
   }
 }
 
 # Create route to the internet
-resource "aws_route_table" "pub" {
-  vpc_id = "${aws_vpc.main.id}"
+resource "aws_route_table" "myroute" {
+  vpc_id = "${aws_vpc.myvpc.id}"
 
   route {
     cidr_block = "0.0.0.0/0"
-    gateway_id = "${aws_internet_gateway.gw.id}"
+    gateway_id = "${aws_internet_gateway.myig.id}"
   }
 
   tags {
-    Name = "main"
+    Name = "myroute"
   }
 }
 
 # Associate route table to internet with public subnet
-resource "aws_route_table_association" "a" {
-  subnet_id      = "${aws_subnet.public.id}"
-  route_table_id = "${aws_route_table.pub.id}"
+resource "aws_route_table_association" "sub_route_a" {
+  subnet_id      = "${aws_subnet.mysubnet.id}"
+  route_table_id = "${aws_route_table.myroute.id}"
 }
 
 
-# Create security group to allow SSH to bastion server from my ip
-resource "aws_security_group" "allow_ssh_myip" {
+# Create security group to allow SSH in and HTTP/S out
+resource "aws_security_group" "mysg" {
   name = "Allow_ssh_myip"
   description = "Allow ssh inbound traffic"
-  vpc_id = "${aws_vpc.main.id}"
+  vpc_id = "${aws_vpc.myvpc.id}"
 
   ingress {
     from_port = 22
     to_port = 22
     protocol = "6"
-    cidr_blocks = ["82.11.73.243/32"]
+    cidr_blocks = ["86.15.20.140/32"]
   }
-  egress {
-    from_port = 22
-    to_port = 22
+
+    egress {
+    from_port = 443
+    to_port = 443
     protocol = "6"
-    cidr_blocks = ["${aws_instance.priv.private_ip}"]
+    cidr_blocks = ["0.0.0.0/0"]
   }
-}
 
-# Create security group to allow ssh from public subnet to private subnet
-resource "aws_security_group" "allow_ssh" {
-  name = "allow_ssh_pub_to_priv"
-  description = "Allow ssh inbound traffic"
-  vpc_id = "${aws_vpc.main.id}"
-
-  ingress {
-    from_port = 22
-    to_port = 22
+    egress {
+    from_port = 80
+    to_port = 80
     protocol = "6"
-    cidr_blocks = ["${aws_instance.pub.private_ip}"]
+    cidr_blocks = ["0.0.0.0/0"]
   }
 }
 
 # Provision 1 public instance with AWS AMI
-resource "aws_instance" "pub" {
+resource "aws_instance" "myvm" {
   ami           = "ami-d834aba1"
   instance_type = "t2.micro"
-  key_name = "awspaolo"
-  subnet_id = "${aws_subnet.public.id}"
-  vpc_security_group_ids = ["${aws_security_group.allow_ssh_myip.id}"]
+  key_name = "mykeypair"
+  subnet_id = "${aws_subnet.mysubnet.id}"
+  vpc_security_group_ids = ["${aws_security_group.mysg.id}"]
 }
 
-# Provision 1 private instance with AWS AMI
-resource "aws_instance" "priv" {
-  ami           = "ami-d834aba1"
-  instance_type = "t2.micro"
-  key_name = "awspaolo"
-  subnet_id = "${aws_subnet.private.id}"
-  vpc_security_group_ids = ["${aws_security_group.allow_ssh.id}"]
-}
-
-# Provision Elastic IP for bastion
-resource "aws_eip" "bastion" {}
-
-# Provision Elastic IP for NAT Gateway
-resource "aws_eip" "NAT" {}
-
-# Associate Elastic IP with public instance
-resource "aws_eip_association" "eip_assoc" {
-  instance_id   = "${aws_instance.pub.id}"
-  allocation_id = "${aws_eip.bastion.id}"
-}
 
