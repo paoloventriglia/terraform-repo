@@ -1,0 +1,15 @@
+resource "aws_instance" "myvm" {
+  ami           = "ami-3bfab942"
+  instance_type = "t2.micro"
+  key_name = "mykeypair"
+  provisioner "local-exec" {
+    command = "echo ${aws_instance.myvm.public_ip} >> public_ips.txt"
+  }
+}
+
+output "ip" {
+  value = "${aws_instance.myvm.public_ip}"
+}
+output "az" {
+  value = "${aws_instance.myvm.availability_zone}"
+}

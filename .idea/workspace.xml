@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16837d83-7612-4d8b-b2f8-fe1f43de067b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/.terraform/terraform.tfstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/data_source_test.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/outputs_test.tf.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/public_ips.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/s3.backend.tf.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/terraform.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/terraform.tfvars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/terraform.tfstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/terraform.tfstate.backup" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/terraform.tfstate.backup" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,20 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vars.tf" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AWS/vars.tf">
+      <file leaf-file-name="data_source_test.tf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AWS/data_source_test.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="terraform.tfvars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AWS/terraform.tfvars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -55,14 +50,18 @@
         <option value="$PROJECT_DIR$/AWS/instance.tf" />
         <option value="$PROJECT_DIR$/AWS/main.tf" />
         <option value="$PROJECT_DIR$/AWS/terraform.tfvars" />
+        <option value="$PROJECT_DIR$/AWS/single_vpc.tf.bak" />
+        <option value="$PROJECT_DIR$/AWS/outputs_test.tf" />
+        <option value="$PROJECT_DIR$/AWS/backend.tf" />
+        <option value="$PROJECT_DIR$/AWS/data_source_test.tf" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="-11" />
-    <option name="width" value="1368" />
-    <option name="height" value="780" />
+    <option name="x" value="683" />
+    <option name="y" value="-4" />
+    <option name="width" value="683" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -100,6 +99,12 @@
               <item name="terraform-repo" type="462c0819:PsiDirectoryNode" />
               <item name="AWS" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="terraform-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="terraform-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+              <item name=".terraform" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -128,6 +133,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AWS" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\paolo.ventriglia\Documents\CodeProjects\terraform-repo\AWS" />
       <recent name="C:\Users\paolo.ventriglia\Documents\CodeProjects\terraform-repo\AWS\Networking" />
@@ -207,13 +215,27 @@
       <option name="project" value="LOCAL" />
       <updated>1518989923219</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added 2 files">
+      <created>1524084525720</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1524084525720</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added 2 files">
+      <created>1524084639217</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1524084639217</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2591508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11713031" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50292826" side_tool="true" weight="0.37666667" />
       <window_info anchor="bottom" id="Version Control" order="8" />
@@ -247,29 +269,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="added 2 files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AWS/main.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/vars.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/vars.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/terraform.tfvars" />
-    <entry file="file://$PROJECT_DIR$/AWS/IAM/vars.tf" />
     <entry file="file://$PROJECT_DIR$/AWS/VPC/vars.tf" />
     <entry file="file://$PROJECT_DIR$/AWS/VPC/provider.tf" />
     <entry file="file://$PROJECT_DIR$/AWS/VPC/terraform.tfvars" />
@@ -327,13 +326,6 @@
     <entry file="file://$PROJECT_DIR$/AWS/aws_provider.tf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AWS/main.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -341,10 +333,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/terraform.tfstate">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/single_vpc.tf.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="85" column="1" lean-forward="true" selection-start-line="79" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/terraform.tfvars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AWS/vars.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="45">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/outputs_test.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/backend.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/data_source_test.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
