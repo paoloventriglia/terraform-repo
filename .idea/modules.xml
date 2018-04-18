@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Bash/.idea/Bash.iml" filepath="$PROJECT_DIR$/../Bash/.idea/Bash.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Powershell/.idea/Powershell.iml" filepath="$PROJECT_DIR$/../Powershell/.idea/Powershell.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/terraform-repo.iml" filepath="$PROJECT_DIR$/.idea/terraform-repo.iml" />
     </modules>
   </component>
