@@ -1,6 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "corebox-tf-remote-state"
+    encrypt = true
+    bucket = "crbx-tf-remote-state"
     key = "terraform/state"
+    dynamodb_table = "terraform-state-lock-dynamo"
   }
 }
