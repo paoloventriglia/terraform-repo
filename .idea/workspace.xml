@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16837d83-7612-4d8b-b2f8-fe1f43de067b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/AWS/data_source_test.tf.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/dynamodb.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/s3bucket.tf" afterDir="false" />
+    <list default="true" id="16837d83-7612-4d8b-b2f8-fe1f43de067b" name="Default" comment="added 2 files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/.terraform/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/.terraform/terraform.tfstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/data_source_test.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/s3.backend.tf.bak" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/s3.backend.tf.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/terraform.tfstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/terraform.tfstate.backup" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/terraform.tfstate.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/terraform.tfstate.backup" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +24,12 @@
         </entry>
       </file>
       <file leaf-file-name="terraform.tfstate" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AWS/.terraform/terraform.tfstate">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/AWS/terraform.tfstate">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="dynamodb.tf" pinned="false" current-in-tab="false">
@@ -112,17 +109,6 @@
               <item name="terraform-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="terraform-repo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="terraform-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="terraform-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="AWS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="terraform-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="terraform-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="AWS" type="462c0819:PsiDirectoryNode" />
-              <item name=".terraform" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -147,7 +133,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="TF_FMT" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Powershell" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tf-multiple-vpc" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -247,11 +233,26 @@
       <option name="project" value="LOCAL" />
       <updated>1524084639217</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added 2 files">
+      <created>1524174881636</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1524174881636</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added 2 files">
+      <created>1524175091062</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1524175091062</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19253294" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -287,7 +288,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="added 2 files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AWS/VPC/terraform.tfvars" />
+    <entry file="file://$PROJECT_DIR$/AWS/terraform.tfstate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AWS/IAM/terraform.tfvars" />
     <entry file="file://$PROJECT_DIR$/AWS/IAM/provider.tf" />
     <entry file="file://$USER_HOME$/Bash/server_reconfig.sh" />
@@ -362,13 +369,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AWS/outputs_test.tf" />
-    <entry file="file://$PROJECT_DIR$/AWS/data_source_test.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/data_source_test.tf" />
     <entry file="file://$PROJECT_DIR$/AWS/dynamodb.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -383,13 +384,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/backend.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/backend.tf" />
     <entry file="file://$PROJECT_DIR$/AWS/s3bucket.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -397,8 +392,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/.terraform/terraform.tfstate">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/AWS/terraform.tfstate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
